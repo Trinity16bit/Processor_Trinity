@@ -27,9 +27,9 @@ Our processor integrates several carefully routed custom modules:
 
 ## 👥 The Trinity Team
 This architecture is proudly designed and developed by:
-* **Jaikrishnan P.** - Core Architecture & Logic Design
-* **Faiz** - Digital System Design
-* **T. Pavithra** - Digital System Design
+* **Jaikrishnan P** - Core Architecture & Logic Design
+* **Mohamed Faiz N** - Digital System Design
+* **T Pavithra** - Digital System Design
 
 *Second-Year B.Tech ECE (2024-2028 Batch) | National Institute of Technology, Puducherry (NITPY)*
 
