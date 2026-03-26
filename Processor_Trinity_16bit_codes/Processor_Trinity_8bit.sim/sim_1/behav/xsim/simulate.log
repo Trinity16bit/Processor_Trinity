@@ -1,0 +1,29 @@
+Time resolution is 1 ps
+========================================
+ 16-bit Custom Processor Simulation
+ ISA: ADD SUB MUL DIV AND OR XOR
+      MOV LDI LD ST CMP JMP BZ BNZ HALT
+========================================
+[25000 ns] PC=000 | IR=8005 | HALT=0 | Z=0 | R0=0000 R1=0000 R2=0000 R3=0000 R4=0000
+[35000 ns] PC=001 | IR=8203 | HALT=0 | Z=0 | R0=0005 R1=0000 R2=0000 R3=0000 R4=0000
+[45000 ns] PC=002 | IR=8402 | HALT=0 | Z=0 | R0=0005 R1=0003 R2=0000 R3=0000 R4=0000
+[55000 ns] PC=003 | IR=8801 | HALT=0 | Z=0 | R0=0005 R1=0003 R2=0002 R3=0000 R4=0000
+[65000 ns] PC=004 | IR=0608 | HALT=0 | Z=0 | R0=0005 R1=0003 R2=0002 R3=0000 R4=0001
+[75000 ns] PC=005 | IR=26d0 | HALT=0 | Z=0 | R0=0005 R1=0003 R2=0002 R3=0008 R4=0001
+[85000 ns] PC=006 | IR=16e0 | HALT=0 | Z=0 | R0=0005 R1=0003 R2=0002 R3=0010 R4=0001
+[95000 ns] PC=007 | IR=f000 | HALT=1 | Z=0 | R0=0005 R1=0003 R2=0002 R3=000f R4=0001
+
+========================================
+ ✓ Simulation Complete - HALT reached
+   Final Registers:
+   R0 = 0005 (5)
+   R1 = 0003 (3)
+   R2 = 0002 (2)
+   R3 = 000f (15)
+   R4 = 0001 (1)
+   R5 = 0000 (0)
+   R6 = 0000 (0)
+   R7 = 0000 (0)
+========================================
+ ✓ PASS: R3 = 15 (expected)
+$finish called at time : 105 ns : File "C:/VLSI/Processor_Trinity_8bit/Processor_Trinity_8bit.srcs/sim_1/new/tb_processor.v" Line 105
