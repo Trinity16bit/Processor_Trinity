@@ -1,4 +1,4 @@
-# 🚀 Processor-Trinity: 16-Bit Custom RISC Architecture
+#  Processor-Trinity: 16-Bit Custom RISC Architecture
 
 ## 📌 Overview
 Processor-Trinity is a custom-designed, 16-bit Reduced Instruction Set Computer (RISC) microprocessor developed from scratch. Designed by a core team of second-year Electronics and Communication Engineering (ECE) undergraduates at NIT Puducherry, this project serves as a practical, hands-on exploration of digital system design, instruction set architecture (ISA), and processor datapath routing.
