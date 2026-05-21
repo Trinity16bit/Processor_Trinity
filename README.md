@@ -35,7 +35,7 @@ This architecture is proudly designed and developed by:
 
 *Second-Year B.Tech ECE (2024-2028 Batch) | National Institute of Technology, Puducherry (NITPY)*
 
-## 🔮 Future Roadmap
+##  Future Roadmap
 * RTL coding using Verilog HDL.
 * Simulation and waveform verification.
 * FPGA synthesis and implementation.
