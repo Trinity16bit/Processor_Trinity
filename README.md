@@ -1,11 +1,11 @@
 #  Processor-Trinity: 16-Bit Custom RISC Architecture
 
-## 📌 Overview
+##  Overview
 Processor-Trinity is a custom-designed, 16-bit Reduced Instruction Set Computer (RISC) microprocessor developed from scratch. Designed by a core team of second-year Electronics and Communication Engineering (ECE) undergraduates at NIT Puducherry, this project serves as a practical, hands-on exploration of digital system design, instruction set architecture (ISA), and processor datapath routing.
 
 We built this processor to bridge the gap between theoretical computer architecture and real-world VLSI implementation, with the ultimate goal of transitioning these skills into advanced RISC-V development.
 
-## 🏗️ Architectural Specifications
+##  Architectural Specifications
 The Trinity architecture follows a classic RISC philosophy, emphasizing a streamlined instruction set, uniform instruction length, and a load/store memory model.
 
 * **Architecture Type:** 16-bit RISC (Harvard Architecture)
@@ -16,9 +16,9 @@ The Trinity architecture follows a classic RISC philosophy, emphasizing a stream
 * **Program Counter (PC):** 12-bit, enabling up to 4K instruction addressability
 * **Memory Integration:** * Instruction Memory: ROM (256 x 16-bit)
 * **Data Memory:** SRAM (256 x 16-bit)
-  ![Processor-Trinity Architecture](16bit_processor_block_diagram.svg)
+  ![Processor-Trinity Architecture](https://github.com/Trinity16bit/Processor_Trinity/blob/main/BlockDiagram.jpeg)
 
-## ⚙️ Core Datapath & Modules
+##  Core Datapath & Modules
 Our processor integrates several carefully routed custom modules:
 1.  **Control Unit:** Decodes the 4-bit opcode and generates the necessary control signals for memory access, ALU operations, and multiplexer routing.
 2.  **Arithmetic Logic Unit (ALU):** Capable of executing ADD, SUB, MUL, DIV, AND, OR, and other essential operations. 
@@ -27,7 +27,7 @@ Our processor integrates several carefully routed custom modules:
 5.  **Sign Extender:** Converts 9-bit immediate values from the instruction into 16-bit operands for the ALU.
    
 
-## 👥 The Trinity Team
+##  The Trinity Team
 This architecture is proudly designed and developed by:
 * **Core Architecture & Logic Design: JAIKRISHNAN P** (https://github.com/Jaikrishnan-p15)
 * **Digital System Design: MOHAMED FAIZ N** (https://github.com/Mohamedfaiz-png)
