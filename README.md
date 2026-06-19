@@ -31,7 +31,7 @@ Our processor integrates several carefully routed custom modules:
 This architecture is proudly designed and developed by:
 * **Core Architecture & Logic Design: JAIKRISHNAN P** (https://github.com/Jaikrishnan-p15)
 * **Digital System Design: MOHAMED FAIZ N** (https://github.com/Mohamedfaiz-png)
-* **Digital System Design: T PAVITHRA** (https://github.com/tellapati-pavithra)
+
 
 *Second-Year B.Tech ECE (2024-2028 Batch) | National Institute of Technology, Puducherry (NITPY)*
 
